@@ -1,0 +1,65 @@
+
+a{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 20px;
+    color: #333;
+}
+a:hover{
+    font-weight: bold;
+    color: #333;
+}
+a:active{
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+a:visited{
+   font-weight: bold;
+    color: #333;
+    text-decoration: none; 
+}
+a:link{
+    font-weight: bold;
+    color: #333;
+}
+#img{
+/*    height: 20px;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img > img{
+    width: 100px;
+    height: 100px;
+}
+#main{
+    border: solid 2px #000;
+    height: 120%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#link{
+    margin-top: 3%;
+}
+#every{
+    margin-bottom: 5%;
+    margin-top: 7%;
+}
+#online, #offline, #all{
+    border-radius: 0;
+    font-family: Roboto;
+    font-weight: 200;
+    font-size: 30px;
+}
+#twitch_title{
+    font-family: Roboto;
+    font-weight: 100;
+    font-size: 36px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+#content{
+    margin-top: 3%;
+}

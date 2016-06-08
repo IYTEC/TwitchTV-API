@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twitch TV Application</title>
+        <link rel="stylesheet" type="text/css" href="style/font-awesome-4.6.2/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    
+    <body>
+        <div class="heading">
+            <p id="twitch_title" class="text-center">Twitch TV Streamers</p>
+            <div class="container">
+                <div class="row">
+                    <button class="col-xs-4 btn btn-default" id="all" onclick="all_streamers();">All</button>
+                    <button class="col-xs-4 btn btn-success" id="online" onclick="online();"> Online </button>
+                    <button class="col-xs-4 btn btn-danger" id="offline" onclick="offline();"> Offline </button>
+                </div>
+            </div>
+        </div>
+        <div id="every">
+            
+        </div>
+        
+        
+        <script type="text/javascript" src="script/jquery-2.2.0.js"></script>
+        <script type="text/javascript" src="script/bootstrap.js"></script>
+        <script type="text/javascript" src="script/script.js"></script>
+    </body>
+</html>
